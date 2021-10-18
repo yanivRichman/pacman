@@ -1,6 +1,6 @@
 'use strict'
 
-const WALL = '<img style="display:block;" width="100%" height="100%" src="img/wall.jpg">';
+const WALL = '<img style="display:block;" width="100%" height="100%" src="./img/wall.JPG">';
 const FOOD = '◽'
 const POWER_FOOD = '🔴'
 const CHERRY_FOOD = '🍒'
@@ -36,7 +36,7 @@ function reduceInit() {
     elGameOver.classList.add('hide');
     elGameWin.classList.add('hide');
     elBtn.classList.add('hide');
-    PACMAN_IMG = '<img style="display:block;" width="100%" height="100%" src="img/pacman_right.png">';
+    PACMAN_IMG = '<img style="display:block;" width="100%" height="100%" src="./img/pacman_right.png">';
     clearInterval(gCherryInterval);
     gCherryInterval = setInterval(insertCherry, 15000);
     gGame.score = 0;

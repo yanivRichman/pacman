@@ -1,11 +1,11 @@
 'use strict'
-const PACMAN_IMG_UP = '<img style="display:block;" width="100%" height="100%" src="img/pacman_up.png">';
-const PACMAN_IMG_DOWN = '<img style="display:block;" width="100%" height="100%" src="img/pacman_down.png">';
-const PACMAN_IMG_LEFT = '<img style="display:block;" width="100%" height="100%" src="img/pacman_left.png">';
-const PACMAN_IMG_RIGHT = '<img style="display:block;" width="100%" height="100%" src="img/pacman_right.png">';
+const PACMAN_IMG_UP = '<img style="display:block;" width="100%" height="100%" src="./img/pacman_up.png">';
+const PACMAN_IMG_DOWN = '<img style="display:block;" width="100%" height="100%" src="./img/pacman_down.png">';
+const PACMAN_IMG_LEFT = '<img style="display:block;" width="100%" height="100%" src="./img/pacman_left.png">';
+const PACMAN_IMG_RIGHT = '<img style="display:block;" width="100%" height="100%" src="./img/pacman_right.png">';
 const gFoodEatenForWin = 56;
 
-var PACMAN_IMG = '<img style="display:block;" width="100%" height="100%" src="img/pacman_right.png">';
+var PACMAN_IMG = '<img style="display:block;" width="100%" height="100%" src="./img/pacman_right.png">';
 var gIsPowerFood = false;
 var gPacman;
 var gEmptyCells = [];
