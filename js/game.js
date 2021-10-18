@@ -1,6 +1,6 @@
 'use strict'
 
-const WALL = '<img style="display:block;" width="100%" height="100%" src="./img/wall.JPG">';
+const WALL = '<img style="display:block;" width="100%" height="100%" src="./img/wall.jpg">';
 const FOOD = '◽'
 const POWER_FOOD = '🔴'
 const CHERRY_FOOD = '🍒'
