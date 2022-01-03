@@ -24,6 +24,7 @@ function init() {
     createPacman(gBoard);
     printMat(gBoard, '.board-container')
     updateScore(gGame.score);
+    playSound('pacman_beginning', 'wav');
     setTimeout(() => {
         createGhosts(gBoard);
         gGame.isOn = true;
@@ -32,7 +33,6 @@ function init() {
 }
 
 function reduceInit() {
-    playSound('pacman_beginning', 'wav');
     elGameOver.classList.add('hide');
     elGameWin.classList.add('hide');
     elBtn.classList.add('hide');
@@ -68,7 +68,6 @@ function buildBoard() {
 
 
 function updateScore(diff) {
-    // console.log(diff);
     gGame.score += diff;
     document.querySelector('h2 span').innerText = gGame.score
 }

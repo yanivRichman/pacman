@@ -1,6 +1,8 @@
 'use strict'
 const GHOST_SUPER_COLOR = '<img style="display:block;" width="100%" height="100%" src="./img/super_food_ghost2.jpg">';
-const GHOST = '&#9781;';
+const GHOST = '&#9760;';
+// const GHOST = '👻';
+
 var gGhosts = []
 var gIntervalGhosts;
 var gDeletedGhosts = [];
